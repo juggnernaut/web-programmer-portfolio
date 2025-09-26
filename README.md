@@ -5,6 +5,12 @@ A minimalist, responsive personal portfolio website showcasing my web developmen
 ## 🚀 Live Demo
 **Visit my portfolio:** [https://juggnernaut.github.io/web-programmer-portfolio/](https://juggnernaut.github.io/web-programmer-portfolio/)
 
+> **Note:** If the link shows 404, please enable GitHub Pages in repository settings:
+> 1. Go to [Settings → Pages](https://github.com/juggnernaut/web-programmer-portfolio/settings/pages)
+> 2. Source: Deploy from a branch
+> 3. Branch: main, Folder: / (root)
+> 4. Save and wait 2-5 minutes
+
 ## 📋 About
 I am a Web Programmer skilled in front-end development and building web applications integrated with AI and IoT. This portfolio demonstrates my ability to create clean, modern, and responsive web experiences.
 
