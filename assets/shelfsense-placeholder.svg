@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f8fafc"/>
+      <stop offset="1" stop-color="#eef2f7"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="450" fill="url(#bg)"/>
+
+  <rect x="24" y="24" width="752" height="402" rx="14" fill="#ffffff" stroke="#e5e7eb"/>
+  <rect x="24" y="24" width="752" height="56" rx="14" fill="#111827"/>
+  <circle cx="52" cy="52" r="6" fill="#ef4444"/>
+  <circle cx="72" cy="52" r="6" fill="#f59e0b"/>
+  <circle cx="92" cy="52" r="6" fill="#10b981"/>
+  <text x="120" y="60" fill="#ffffff" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="600">ShelfSense</text>
+
+  <rect x="48" y="98" width="704" height="30" rx="6" fill="#f3f4f6"/>
+  <rect x="56" y="105" width="160" height="16" rx="4" fill="#d1d5db"/>
+  <rect x="236" y="105" width="120" height="16" rx="4" fill="#d1d5db"/>
+  <rect x="366" y="105" width="90" height="16" rx="4" fill="#d1d5db"/>
+  <rect x="466" y="105" width="110" height="16" rx="4" fill="#d1d5db"/>
+
+  <g fill="#ffffff" stroke="#e5e7eb">
+    <rect x="48" y="136" width="704" height="44" rx="6"/>
+    <rect x="48" y="184" width="704" height="44" rx="6"/>
+    <rect x="48" y="232" width="704" height="44" rx="6"/>
+    <rect x="48" y="280" width="704" height="44" rx="6"/>
+  </g>
+  <g fill="#9ca3af">
+    <rect x="56" y="148" width="160" height="12" rx="3"/>
+    <rect x="236" y="148" width="120" height="12" rx="3"/>
+    <rect x="366" y="148" width="90" height="12" rx="3"/>
+    <rect x="466" y="148" width="110" height="12" rx="3"/>
+
+    <rect x="56" y="196" width="160" height="12" rx="3"/>
+    <rect x="236" y="196" width="120" height="12" rx="3"/>
+    <rect x="366" y="196" width="90" height="12" rx="3"/>
+    <rect x="466" y="196" width="110" height="12" rx="3"/>
+
+    <rect x="56" y="244" width="160" height="12" rx="3"/>
+    <rect x="236" y="244" width="120" height="12" rx="3"/>
+    <rect x="366" y="244" width="90" height="12" rx="3"/>
+    <rect x="466" y="244" width="110" height="12" rx="3"/>
+  </g>
+
+  <rect x="660" y="244" width="80" height="24" rx="12" fill="#fee2e2" stroke="#fecaca"/>
+  <text x="700" y="260" text-anchor="middle" fill="#b91c1c" font-family="Inter, Arial, sans-serif" font-size="12">Low stock</text>
+
+  <text x="400" y="430" text-anchor="middle" fill="#6b7280" font-family="Inter, Arial, sans-serif" font-size="14">Generated mock screenshot • Inventory dashboard with low-stock alert</text>
+</svg>
+

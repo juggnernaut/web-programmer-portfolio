@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mahmoud Alkattan — Web Programmer</title>
+  <meta name="description" content="Personal portfolio of Mahmoud Alkattan, Web Programmer.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="script.js"></script>
+  <style>body{font-family:Inter,ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,Noto Sans,Helvetica Neue,Arial}</style>
+</head>
+<body>
+  <header>
+    <div class="container nav">
+      <a class="brand" href="#home">Mahmoud Alkattan</a>
+      <nav>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="home" class="container">
+    <section class="hero" aria-label="Introduction">
+      <h1>Mahmoud Alkattan — <span style="color:#6b7280;font-weight:600">Web Programmer</span> 💻</h1>
+      <p>Building fast, reliable, and accessible web experiences with modern technologies.</p>
+      <a class="cta" href="#projects">🚀 View Projects</a>
+    </section>
+
+    <section id="about" aria-label="About Me">
+      <h2>About Me 🌱</h2>
+      <p class="lead">I am a Web Programmer skilled in front-end development and building web applications integrated with AI and IoT.</p>
+    </section>
+
+    <section id="projects" aria-label="Projects">
+      <h2>Projects 🧩</h2>
+      <p class="lead">Selected projects.</p>
+      <div class="projects-grid">
+        <article class="project-card">
+          <img class="screenshot-img" src="assets/quickshop-placeholder.svg" alt="QuickShop screenshot" loading="lazy" width="800" height="450">
+          <h3>QuickShop</h3>
+          <p>A lightweight e-commerce template for small stores with a products grid, add-to-cart functionality, and a checkout form (mock payment).</p>
+          <ul class="feature-list">
+            <li>Responsive design</li>
+            <li>Product filtering</li>
+            <li>Cart management using LocalStorage</li>
+            <li>Minimalist layout</li>
+          </ul>
+          <div class="badges">
+            <span class="badge">HTML</span>
+            <span class="badge">CSS</span>
+            <span class="badge">JavaScript</span>
+          </div>
+          <div class="project-links">
+            <a class="button" href="https://demo.quickshop.example" target="_blank" rel="noopener">Demo</a>
+            <a class="button" href="https://github.com/juggnernaut/quickshop" target="_blank" rel="noopener">GitHub</a>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <img class="screenshot-img" src="assets/shelfsense-placeholder.svg" alt="ShelfSense screenshot" loading="lazy" width="800" height="450">
+          <h3>ShelfSense</h3>
+          <p>A simple inventory low-stock notifier for stores. Shows products, quantities, and highlights items below threshold.</p>
+          <ul class="feature-list">
+            <li>Dashboard with product management</li>
+            <li>Low-stock visual alerts</li>
+            <li>CSV export for inventory</li>
+            <li>Responsive design</li>
+          </ul>
+          <div class="badges">
+            <span class="badge">HTML</span>
+            <span class="badge">CSS</span>
+            <span class="badge">JavaScript</span>
+            <span class="badge">React (optional)</span>
+          </div>
+          <div class="project-links">
+            <a class="button" href="https://demo.shelfsense.example" target="_blank" rel="noopener">Demo</a>
+            <a class="button" href="https://github.com/juggnernaut/shelfsense" target="_blank" rel="noopener">GitHub</a>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <img class="screenshot-img" src="assets/plantcare-placeholder.svg" alt="AI Plant Care System screenshot" loading="lazy" width="800" height="450">
+          <h3>AI Plant Care System Based on IoT and Deep Learning</h3>
+          <p>A smart plant care system using IoT sensors and deep learning to monitor environmental conditions and recommend watering and light adjustments.</p>
+          <ul class="feature-list">
+            <li>Real-time sensor data via IoT</li>
+            <li>Deep learning-based health insights</li>
+            <li>Recommendations for watering and lighting</li>
+            <li>Responsive dashboard</li>
+          </ul>
+          <div class="badges">
+            <span class="badge">IoT</span>
+            <span class="badge">Deep Learning</span>
+            <span class="badge">HTML</span>
+            <span class="badge">CSS</span>
+            <span class="badge">JavaScript</span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact" aria-label="Contact">
+      <h2>Contact ✉️</h2>
+      <p class="lead">I'm currently open to freelance and full-time opportunities.</p>
+      <ul class="contact-list">
+        <li>Email: <a href="mailto:mahmoudkattan480@gmail.com">mahmoudkattan480@gmail.com</a></li>
+        <li>GitHub: <a href="https://github.com/juggnernaut" target="_blank" rel="noopener">github.com/juggnernaut</a></li>
+        <li>LinkedIn: <a href="https://www.linkedin.com/in/mahmoud-alkattan-747a99175" target="_blank" rel="noopener">linkedin.com/in/mahmoud-alkattan-747a99175</a></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">© <span id="year"></span> Mahmoud Alkattan. All rights reserved.</div>
+  </footer>
+</body>
+</html>
+
+
